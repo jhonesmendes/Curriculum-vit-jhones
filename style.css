@@ -1,0 +1,49 @@
+* {
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Code', monospace;
+}
+
+@font-face {
+    font-family: 'quanton';
+    src: url(./font/quanton-tiulo/QuantonPERSONALUSEONLY-Black.otf),
+        url(./font/quanton-tiulo/QuantonPERSONALUSEONLY-Bold.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Fira+Code:wght@500;600;700&display=swap');
+
+.nome {
+    font-family: 'quanton';
+    font-size: 30px;
+    background-color: aquamarine;
+    text-align: center;
+
+}
+.cargo {
+    text-align: center;
+    font-size: 15px;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+/* img {
+    border-radius: 250%;
+    border: 3px solid;
+    width: 130px;
+    color: chartreuse;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+} */
+
+
+
+
+.perfil {
+    width: 130px;
+    background-color: rgb(142, 142, 185);
+    border: 5px solid;
+
+}
